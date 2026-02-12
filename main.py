@@ -1,4 +1,5 @@
-from calc import add
-# assert add(2,3) == 0
-assert add(0,0) == 0
-assert add(8,-8) == 0
+from calc import multiply, subtract
+assert multiply(5,5)==25
+assert multiply(6,6)==35
+assert subtract(6,1)==5
+assert subtract(45,5)==9
